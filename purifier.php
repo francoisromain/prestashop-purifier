@@ -50,6 +50,9 @@ class Purifier extends Module
 			$this->context->controller->removeJS(_PS_ROOT_DIR_.'/js/jquery/ui/jquery.ui.widget.min.js');
 			$this->context->controller->removeJS(_PS_ROOT_DIR_.'/js/jquery/ui/jquery.ui.mouse.min.js');
 			$this->context->controller->removeJS(_PS_ROOT_DIR_.'/js/jquery/ui/jquery.ui.slider.min.js');
+      $this->context->controller->removeJS(_PS_ROOT_DIR_.'/js/jquery/plugins/footable/jquery.footable.js');
+      $this->context->controller->removeJS(_PS_ROOT_DIR_.'/js/jquery/plugins/footable-sort/jquery.footable-sort.js');
+
 			$this->context->controller->removeCSS(_PS_ROOT_DIR_.'/js/jquery/ui/themes/base/jquery.ui.core.css');
 			$this->context->controller->removeCSS(_PS_ROOT_DIR_.'/js/jquery/ui/themes/base/jquery.ui.slider.css');
 			$this->context->controller->removeCSS(_PS_ROOT_DIR_.'/js/jquery/ui/themes/base/jquery.ui.theme.css');
@@ -69,6 +72,5 @@ class Purifier extends Module
 			$this->context->controller->removeCSS(_PS_ROOT_DIR_.'/modules/blockwishlist/blockwishlist.css');
 			$this->context->controller->removeCSS(_PS_ROOT_DIR_.'/modules/favoriteproducts/favoriteproducts.css');
       $this->context->controller->removeCSS(_PS_ROOT_DIR_.'/modules/homefeatured/css/homefeatured.css');
-
 		}
 }

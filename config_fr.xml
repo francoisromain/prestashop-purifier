@@ -3,10 +3,10 @@
 	<name>purifier</name>
 	<displayName><![CDATA[Purifier]]></displayName>
 	<version><![CDATA[1.0.0]]></version>
-	<description><![CDATA[Supprime les liens vers les librairies Javascript et CSS utilisé sur le front-end.]]></description>
+	<description><![CDATA[Supprime tous les liens vers les fichiers Javascript et Css du frontend de Prestashop.]]></description>
 	<author><![CDATA[Fran&ccedil;ois Romain]]></author>
 	<tab><![CDATA[front_office_features]]></tab>
-	<confirmUninstall><![CDATA[Are you sure you want to uninstall?]]></confirmUninstall>
+	<confirmUninstall><![CDATA[Êtes vous sur de vouloir désintaller ? ]]></confirmUninstall>
 	<is_configurable>0</is_configurable>
 	<need_instance>0</need_instance>
 	<limited_countries></limited_countries>
